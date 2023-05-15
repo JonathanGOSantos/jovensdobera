@@ -1,3 +1,3 @@
 # jovensdobera
  
-<a href="jonathangosantos.github.io/jovensdobera" target="_blank">Jovens do Berá</a>
+<a href="https://jonathangosantos.github.io/jovensdobera/">Site android CursoemVideo</a> <br>

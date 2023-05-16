@@ -5,6 +5,11 @@
 :root {
   --fontePadrao: "Montserrat", sans-serif;
   --fonteDestaque: "Oswald", sans-serif;
+  --corFundo: #f1e3df;
+  --corTexto: #040202;
+  --botaoPrincipal: #faf6f4;
+  --botaoSecundario: #a5d9b0;
+  --destaque: #b0a5d9;
 }
 * {
   padding: 0;
@@ -13,7 +18,7 @@
 }
 
 body {
-  background-color: darkgray;
+  background-color: var(--corFundo);
   font-family: var(--fontePadrao);
 }
 /* Header */
@@ -23,7 +28,7 @@ header {
   align-items: center;
   padding: 5px;
   height: 75px;
-  background-color: lightgray;
+  background-color: var(--corFundo);
   border-bottom: 0.5px solid darkgray;
 }
 #header {
@@ -49,12 +54,13 @@ nav {
 nav > a, #closeMenu {
   font-family: var(--fonteDestaque);
   font-size: 1.4rem;
-  border: 0.5px solid rgb(112, 112, 112);
+  background-color: var(--botaoPrincipal);
   padding: 1px 5px;
   border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.418);
 }
-nav > a:hover, nav > a:focus {
-  background-color: gray;
+nav > a:hover, nav > a:focus, #closeMenu:hover, #closeMenu:focus {
+  translate: 0 -10%;
 }
 
 #openMenu, #closeMenu {
